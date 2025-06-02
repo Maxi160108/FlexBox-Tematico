@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: solid red;
+}
+
+body {
+    background-color: #f2f4f8;
+    background-image: url("img/the-lisbon-sisters.png");
+}
+
+.contenedor {
+    display: flex;
+    height: 100vh;
+}
+
+/* NAV */
+.nav {
+    background-color: rgb(252, 207, 215);
+    color: white;
+    min-width: 200px;
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+}
+
+.nav h2 {
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav li {
+    margin: 10px 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: #ffd54f;
+}
+
+.principal {
+    flex: 4;
+    padding: 30px;
+}
+
+h1{
+    color: white;
+    font-family: cursive;
+    
+}
+
+.sinopsis{
+    color: white;
+}
+
+.sinopBox{
+    background-color: pink;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.tarjeta {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: scale(1.05);
+}
+
+/* Proporciones */
+.grande {
+    flex: 3;
+    background-color: #ffd54f;
+    width: 50vh;
+    height: 30vh;
+}
+
+.mediana {
+    flex: 2;
+    background-color: #4fc3f7;
+    width: 50vh;
+    height: 30vh;
+}
