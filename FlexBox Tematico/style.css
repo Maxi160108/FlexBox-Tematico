@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
     outline: solid red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
-    background-color: #f2f4f8;
-    background-image: url("img/the-lisbon-sisters.png");
+  margin: 0;
+  padding: 0;
+  background-image: url('img/descarga\ \(2\).png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .contenedor {
@@ -14,19 +19,18 @@ body {
     height: 100vh;
 }
 
-/* NAV */
 .nav {
-    background-color: rgb(252, 207, 215);
+    background-color:#cb8d96;
     color: white;
     min-width: 200px;
     flex: 1;
     max-width: 300px;
     padding: 20px;
+    opacity: 0.8;
 }
 
 .nav h2 {
     margin-bottom: 20px;
-    font-family: cursive;
 }
 
 .nav ul {
@@ -34,17 +38,19 @@ body {
 }
 
 .nav li {
-    margin: 10px 0;
+    margin: 10px;
+    margin-bottom: 17vh;
 }
 
 .nav a {
     text-decoration: none;
     color: white;
-    transition: 0.3s;
+    font-size: 5vh;
 }
 
 .nav a:hover {
     color: #ffd54f;
+    transition: 0.3s;
 }
 
 .principal {
@@ -54,49 +60,15 @@ body {
 
 h1{
     color: white;
-    font-family: cursive;
-    
+    margin-bottom: 4vh;
 }
 
 .sinopsis{
-    color: white;
+    font-size:larger;
+    color: black;   
 }
 
 .sinopBox{
-    background-color: pink;
-}
-
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.tarjeta {
-    padding: 30px;
-    border-radius: 10px;
-    background-color: #fff;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-}
-
-.tarjeta:hover {
-    transform: scale(1.05);
-}
-
-/* Proporciones */
-.grande {
-    flex: 3;
-    background-color: #ffd54f;
-    width: 50vh;
-    height: 30vh;
-}
-
-.mediana {
-    flex: 2;
-    background-color: #4fc3f7;
-    width: 50vh;
-    height: 30vh;
+    background-color: #f0b0dc;
+    opacity: 0.7;
 }
