@@ -6,12 +6,9 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  background-image: url('img/descarga\ \(2\).png');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #9e6c74;
 }
 
 .contenedor {
@@ -20,26 +17,28 @@ body {
 }
 
 .nav {
-    background-color:#cb8d96;
+    background-image: url('img/Diseño\ sin\ título.png');
+    background-size: cover;
+    background-position: center;
     color: white;
     min-width: 200px;
     flex: 1;
     max-width: 300px;
     padding: 20px;
     opacity: 0.8;
-}
-
-.nav h2 {
-    margin-bottom: 20px;
+    width: 32vh;
 }
 
 .nav ul {
     list-style: none;
+    justify-items: center;
+    margin-top: 100%;
 }
 
 .nav li {
+    display: flex;
     margin: 10px;
-    margin-bottom: 17vh;
+    margin-bottom: 10vh;
 }
 
 .nav a {
@@ -58,17 +57,36 @@ body {
     padding: 30px;
 }
 
-h1{
+h1 {
     color: white;
     margin-bottom: 4vh;
 }
 
-.sinopsis{
-    font-size:larger;
-    color: black;   
+.sinopsis {
+    font-size: larger;
+    color: black;
 }
 
-.sinopBox{
+.sinopBox {
     background-color: #f0b0dc;
     opacity: 0.7;
+    border-radius: 2vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+}
+
+.secondary {
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+}
+
+.tarjeta {
+    width: 32vh;
+    height: 20vh;
+    border-radius: 2vh;
 }
