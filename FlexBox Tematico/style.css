@@ -93,9 +93,16 @@ h1 {
     display: flex;
     width: 30vh;
     height: 20vh;
+    flex: 1;
     border-radius: 2vh;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: ease 0.3s all;
+}
+
+.tarjeta:hover{
+    flex: 2;
 }
 
 .gallery{
@@ -111,7 +118,6 @@ h1 {
 
 .name:hover{
     color: #f0b0dc;
-    font-family:cursive;
     font-size:large;
     transition: 0.7s;
 }
